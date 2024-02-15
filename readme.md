@@ -7,3 +7,8 @@
 * Use hex grid
 * Make rally point with actions when you build the units (i.e. place a city when you start settler production)
 * lenses
+* turning policies on or off costs culture
+* buying great people costs culture? Faith?
+* buying borders costs culture
+* hurry production with gold
+* think about anit snowballing mechanics, that don't increase production cost with more cities

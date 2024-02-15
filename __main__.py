@@ -17,6 +17,7 @@ def main():
 
 
 def update(display):
+    pygame.display.flip()
     event_loop()
 
 

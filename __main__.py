@@ -33,7 +33,7 @@ def main():
     map_data = read_json_map_file('maps/dummy_map.json')
     display.draw_map(map_data)
     while True:
-        update(display)
+        update()
 
 
 def read_json_map_file(file_path):
@@ -41,7 +41,7 @@ def read_json_map_file(file_path):
         return json.load(json_map_file)
 
 
-def update(display):
+def update():
     pygame.display.flip()
     event_loop()
 

@@ -53,5 +53,5 @@ def event_loop():
             sys.exit()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

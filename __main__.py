@@ -2,7 +2,7 @@ import sys
 import pygame
 
 
-class Screen:
+class Display:
     def __init__(self, width, height):
         pygame.init()
         self.width = width
@@ -11,12 +11,12 @@ class Screen:
 
 
 def main():
-    screen = Screen(800, 600)
+    display = Display(800, 600)
     while True:
-        update()
+        update(display)
 
 
-def update():
+def update(display):
     event_loop()
 
 

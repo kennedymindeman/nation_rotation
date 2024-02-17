@@ -19,6 +19,14 @@ class Display:
         rect = (upper_left_x, upper_left_y, self.tile_width, self.tile_height)
         pygame.draw.rect(self.screen, color, rect)
 
+    def draw_landmark(self, x, y, color):
+        center_x = x * self.tile_width + self.tile_width // 2
+        center_y = y * self.tile_height + self.tile_height // 2
+
+        center = (center_x, center_y)
+        radius = min(self.tile_width, self.tile_height) // 2
+        pygame.draw.circle(self.screen, color, center, radius)
+
     def draw_map(self, map_data):
         for y, row in enumerate(map_data['tiles']):
             for x, tile in enumerate(row):
@@ -26,6 +34,8 @@ class Display:
                     self.draw_tile(x, y, pygame.Color('green'))
                 else:
                     self.draw_tile(x, y, pygame.Color('blue'))
+                if 'city' in tile:
+                    self.draw_landmark(x, y, pygame.Color('gray'))
 
 
 def main():

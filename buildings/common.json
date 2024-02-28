@@ -1,0 +1,55 @@
+{
+  "library": {
+    "production cost": 100,
+    "max workers": 10,
+    "resources per worker": {
+      "science": 1,
+      "great scientist points": 1
+    }
+  },
+  "school": {
+    "prerequisites": {
+      "buildings": ["library"]
+    },
+    "production cost": 1000,
+    "max workers": 100,
+    "resources per worker": {
+      "science": 2,
+      "great scientist points": 2
+    }
+  },
+  "university": {
+    "prerequisites": {
+      "buildings": ["school"]
+    },
+    "production cost": 10000,
+    "max workers": 1000,
+    "resources per worker": {
+      "science": 4,
+      "great scientist points": 4
+    }
+  },
+  "research lab": {
+    "prerequisite": {
+      "buildings": ["university"]
+    },
+    "production cost": 100000,
+    "max workers": 100,
+    "resources per worker": {
+      "science": 8,
+      "great scientist points": 8
+    }
+  },
+  "observatory": {
+    "prerequisite": {
+      "buildings": ["university"],
+      "terrain": ["mountain"],
+      "production cost": 1000,
+      "max workers": 10,
+      "resources per worker": {
+        "science": 4,
+        "great scientist points": 4
+      }
+    }
+  }
+}

@@ -9,13 +9,5 @@
     "cost": 10,
     "first researcher bonus": ["library in researching city"],
     "enables": ["library"]
-  },
-  "animal husbandry": {
-    "prerequisites": {
-      "terrain": ["cows", "sheep", "goats"]
-    },
-    "first researcher bonus": ["pasture in researching city"],
-    "cost": 10,
-    "enables": ["pasture"]
   }
 }

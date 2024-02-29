@@ -1,0 +1,23 @@
+{
+  "textiles": {
+    "cost": 100
+  },
+  "tool making": {
+    "cost": 100,
+    "enables": {
+      "building": "workshop"
+    }
+  },
+  "fire domestication": {
+    "cost": 100,
+    "enables": {
+      "building": "fire pit"
+    }
+  },
+  "herbalism": {
+    "cost": 100,
+    "enables": {
+      "building": "herbalist"
+    }
+  }
+}

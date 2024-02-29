@@ -17,5 +17,19 @@
     },
     "cost": 10,
     "first researcher bonus": ["great scientist in city with most research"]
+  },
+  "philosophy": {
+    "prerequisites": {
+      "technologies": ["writing"]
+    },
+    "cost": 10,
+    "first researcher bonus": ["great scientist in city with most research"]
+  },
+  "currency": {
+    "prerequisites": {
+      "technologies": ["writing"]
+    },
+    "cost": 10,
+    "first researcher bonus": ["great merchant in city with most trade"]
   }
 }

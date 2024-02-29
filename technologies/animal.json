@@ -1,10 +1,21 @@
 {
   "animal husbandry": {
     "prerequisites": {
-      "terrain": ["cows", "sheep", "goats"]
+      "terrain": ["domesticable animals"]
     },
     "first researcher bonus": ["pasture in researching city"],
     "cost": 10,
     "enables": ["pasture"]
+  },
+  "agriculture": {
+    "prerequisites": {
+      "terrain": ["farmable plants"]
+    }
+  },
+  "horseback riding": {
+    "prerequisites": {
+      "technologies": ["animal husbandry"],
+      "terrain": ["horses"]
+    }
   }
 }

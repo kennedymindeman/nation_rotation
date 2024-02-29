@@ -1,0 +1,15 @@
+{
+  "pottery": {
+    "cost": 10,
+    "enables": {
+      "buildings": ["granary"]
+    }
+  },
+  "agriculture": {
+    "terrain": ["farmable plants"],
+    "cost": 10,
+    "enables": {
+      "buildings": ["farm"]
+    }
+  }
+}

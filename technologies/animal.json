@@ -5,17 +5,17 @@
     },
     "first researcher bonus": ["pasture in researching city"],
     "cost": 10,
-    "enables": ["pasture"]
-  },
-  "agriculture": {
-    "prerequisites": {
-      "terrain": ["farmable plants"]
+    "enables": {
+      "buildings": ["pasture"]
     }
   },
   "horseback riding": {
     "prerequisites": {
       "technologies": ["animal husbandry"],
       "terrain": ["horses"]
+    },
+    "enables": {
+      "units": ["horseman"]
     }
   }
 }

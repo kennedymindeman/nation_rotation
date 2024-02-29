@@ -16,7 +16,6 @@
       "technologies": ["writing"]
     },
     "cost": 10,
-    "first researcher bonus": ["great scientist in city with most research"],
-    "enables": ["granary"]
+    "first researcher bonus": ["great scientist in city with most research"]
   }
 }

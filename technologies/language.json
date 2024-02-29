@@ -8,7 +8,15 @@
       "terrain": ["papyrus", "parchment", "leather", "paper"]
     },
     "cost": 10,
-    "first researcher bonus": ["library in researching city"],
+    "first researcher bonus": ["library in city with most research"],
     "enables": ["library"]
+  },
+  "mathamatics": {
+    "prerequisites": {
+      "technologies": ["writing"]
+    },
+    "cost": 10,
+    "first researcher bonus": ["great scientist in city with most research"],
+    "enables": ["granary"]
   }
 }

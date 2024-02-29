@@ -4,6 +4,7 @@
   },
   "writing": {
     "prerequisites": {
+      "technologies": ["alphabet"],
       "terrain": ["papyrus", "parchment", "leather", "paper"]
     },
     "cost": 10,
